@@ -65,7 +65,11 @@ int mechanic::getage()
 
 void mechanic::printinfo()
 {
-	cout << "moi is mechanic" << endl;
+	cout << "name is: " << name << endl;
+	cout << "age is: " << age << endl;
+	cout << "ID is: " << id << endl;
+
+
 }
 
 int mechanic::getcount() 
