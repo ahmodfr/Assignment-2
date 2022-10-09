@@ -13,9 +13,9 @@ private:
 public:
 
 
-	void setmechid(int mechid);
+	void setmechid(int mechid); // sets the mechanic ID to the customer matched with
 
-	void setapp(int h, int m);
+	void setapp(int h, int m); // sets the appointment the customer chose
 
 	void setname(string s);
 	string getname();
