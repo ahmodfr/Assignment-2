@@ -14,11 +14,11 @@ public:
 
 	int static getcount();
 
-	bool isAvailable(Appointment t);
+	bool isAvailable(Appointment t); 
 
-	void static countup();
+	void static countup(); // counts the number of times a mechanic has been booked and it works 
 
-	void rgstr(Appointment a);
+	void rgstr(Appointment a); // whenever a mechanic is registered, the appointment is stored in a vector apps so all the appointments for the guy are in one place.
 
 	void setname(string s);
 	string getname();
